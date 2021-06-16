@@ -3,34 +3,49 @@
 <html>
 	<head>
 		<title>Matias Maglio</title>
+		<link rel="stylesheet" href="TP2.css">
 	</head>
 	<body>
-		<h1 id="titulo">Matias Maglio</h1>
 		<nav id="nav">
-			<a class="enlace" href="/Inicio">Inicio</a>
-			<a class="enlace" href="/Proyectos">Proyectos</a>
-			<a class="enlace" href="/Intereses">Intereses</a>
+			<a class="enlace" href="#sobreMi">Inicio</a>
+			<a class="enlace" href="#proyectos">Proyectos</a>
+			<a class="enlace" href="#intereses">Intereses</a>
 		</nav>
-		<p>Hola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla blaHola mi nombre es matias maglio bla bla bla</p>
+		<div id="main">
+		<article id="sobreMi">
+		<h1 id="titulo">Matias Maglio</h1>
+		<p id="parrafoPrincipal">Hola! Como el título lo indica, mi nombre es Matías Maglio :D <br> Soy estudiante y trabajador de sistemas. Actualmente me encuentro cursando el último año de la tecnicatura de analista de sistemas y trabajando en el area de testing automation. <br> Ademas de aficionado de la tecnología soy apasionado de la música. Desde chico empezo mi interes tocando la guitarra y posteriormente comencé a estudiar piano y teoría musical hasta conseguir mi título de profesor. Transite muchos años desempeñandome como sonidista y productor musical. <br> Mis ambiciones actualmente son especializarme profesionalmente en el área de automation y dedicar mi tiempo libre a seguir con más proyectos musicales </p>
+		</article>
 		<section id="proyectos">
-			<img class="fotoProyecto" src="dummy" alt="proyecto1img">>
-			<img class="fotoProyecto" src="dummy" alt="proyecto2img">>
-			<img class="fotoProyecto" src="dummy" alt="proyecto3img">>
+			<h2> Mis proyectos </h2>
+			<p id="introProyectos"> Estos son algunos de mis proyectos personales en los que trabaje para afianzar algunos conceptos y herramientas de programación.<p>
+			<div class=proyecto>
+			<img class="fotoProyecto" src="fotos/AtaqueEnElEspacio.png" alt="proyecto1img">
+			<p class="parrafoProyecto"><b>Ataque en el espacio: </b>Proyecto en beta con la lógica implementada de detección de impacto, aparición y eliminación de enemigos y más.<br>Herramientas: Python con Pygame<br><a href="https://github.com/MaglioM/ataque-en-el-espacio" target="_blank">Enalce al código</a></p>
+			</div>
+			<div class=proyecto>
+			<img class="fotoProyecto" src="fotos/TitulosDeportivos.png" alt="proyecto2img">
+			<p class="parrafoProyecto"><b>Títulos deportivos: </b>Aplicación gráfica que a partir de web scrapping muestra los titulos deportivos de la fuente seleccionada por el usuario<br>Herramientas: Python con BeautifulSoup y Tkinter<br><a href="https://github.com/MaglioM/titulos-deportivos" target="_blank">Enalce al código</a></p>
+			</div>
 		</section>
-		<p>Mis intereses son: Animales, Musica, Deportes, Informatica.</p>
+		<article id="intereses">
+			<h3>Mis intereses son:</h3>
+			<p>Animales, Musica, Deportes, Informatica, Videojuegos.</p>
+		</article>
+		</div>
 		<aside>
-			<img id="fotoPersonal" src"dummy" alt="fotoPersonal">
-			<p class="lineaMisc">Frase de cabecera: una frase de cabecera</p>
-			<p class="lineaMisc">Un equipo: Boca</p>
-			<p class="lineaMisc">Un color: Azul</p>
-			<p class="lineaMisc">Un lugar: San Clemente</p>
+			<img src="fotos/foto.jpg" alt="fotoPersonal" id="fotoPersonal">
+			<p class="lineaMisc">*Una frase: Un gran poder conlleva una gran responsabilidad</p>
+			<p class="lineaMisc">*Un equipo: Boca</p>
+			<p class="lineaMisc">*Un color: Azul</p>
+			<p class="lineaMisc">*Un lugar: San Clemente</p>
 		</aside>
 		<footer>
-			<p>2021</p>
-			<img class="icono" src="dummy" alt="iconoYoutube">
-			<img class="icono" src="dummy" alt="iconoGitHub">
-			<img class="icono" src="dummy" alt="iconoLinkedin">
-				<img class="icono" src="dummy" alt="iconoInstagram">
+			<p id="leyenda">Desarrollo de aplicaciones web - IFTS 16 - 2021</p>
+			<a href="https://www.youtube.com/channel/UCGIylQNo4HNjfSOtkrSJm4g" target="_blank"><img class="icono" src="fotos/YouTubeIcon.png" alt="iconoYoutube"></a>
+			<a href="https://github.com/MaglioM" target="_blank"><img class="icono" src="fotos/GithubIcon.png" alt="iconoGitHub">
+			<a href="https://www.linkedin.com/in/matiasmaglio/" target="_blank"><img class="icono" src="fotos/LinkedinIcon.png" alt="iconoLinkedin">
+			<a href="https://instagram.com/magliomatias" target="_blank"><img class="icono" src="fotos/IgIcon.png" alt="iconoInstagram">
 		</footer>
 	</body>
 </html>
